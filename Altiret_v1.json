@@ -1,5 +1,5 @@
 {
-  "id": "481b6f6e-2f37-43c4-a1bc-d38e029e34f8",
+  "id": "4f85fb5e-70e9-4c34-91f1-d1295eaeeeac",
   "revision": 0,
   "last_node_id": 18,
   "last_link_id": 32,
@@ -715,44 +715,6 @@
       ]
     },
     {
-      "id": 7,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -708.5971485686642,
-        403.3464504729764
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 4
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            9
-          ]
-        }
-      ],
-      "title": "Positive Prompt",
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "score_9, score_8_up, score_7_up, source_anime, solo, (1man:1.35), male miqo'te, final fantasy xiv, cat ears, fluffy cat tail, full body, standing, mature pose, confident stance, (mature athletic male body, broad shoulders, toned chest:1.3), naked, uncensored, male pubic hair, (visible penis, flaccid penis:1.15), smooth skin, bare chest, human feet, flat on the ground, visible feet, BREAK, (man_face, handsome older man, defined jawline:1.25), facial markings, teardrop face paint beneath eyes, distinct sharp freckles, BREAK, heterochromia, (left eye bright blue, ice blue eye:1.45), (right eye vivid green irises:1.4), BREAK, (orange hair:1.3), undercut, orange chin beard, orange goatee beard, soul patch, BREAK, ocean beach, sandy shore, waves, sea, sunny day\n\n"
-      ]
-    },
-    {
       "id": 11,
       "type": "CLIPTextEncode",
       "pos": [
@@ -864,6 +826,44 @@
       },
       "widgets_values": [
         "score_4, score_5, score_6, human ears, extra ears, matching eyes, monochrome eyes, symmetrical eye colors, source_furry, anthro, digitigrade legs, paws, animal feet, claws, talons, 3d, realistic, low quality, bad anatomy, deformed feet, backward feet, elongated limbs, extra arms, close-up, portrait, cropped head, eyepatch, blindfold, split color skin, split color hair, black hair, group, clone, full beard, thick beard, mustache, thick moustache, unkempt facial hair, hairy cheeks, underwear, clothes, six-pack abs, bodybuilder, huge muscles, overly muscular, bishounen, young boy, twink, baby face, cute face, bruised eyes, black eyes,crystal, gem, chest stone\n"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -674.7879825280933,
+        391.73522173177014
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            9
+          ]
+        }
+      ],
+      "title": "Positive Prompt",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "score_9, score_8_up, score_7_up, source_anime, solo, (1man:1.35), male miqo'te, final fantasy xiv, cat ears, fluffy cat tail, full body, standing, mature pose, confident stance, (mature athletic male body, broad shoulders, toned chest:1.3), naked, uncensored, male pubic hair, (visible penis, flaccid penis:1.15), smooth skin, bare chest, human feet, flat on the ground, visible feet, BREAK, (man_face, handsome older man, defined jawline:1.25), facial markings, teardrop face paint beneath eyes, distinct sharp freckles, BREAK, heterochromia, (left eye bright blue, ice blue eye:1.45), (right eye vivid green irises:1.4), BREAK, (orange hair:1.3), undercut, orange chin beard, orange goatee beard, soul patch, BREAK, ocean beach, sandy shore, waves, sea, sunny day\n\n"
       ]
     }
   ],
@@ -1083,8 +1083,8 @@
     "ds": {
       "scale": 1.4641000000000008,
       "offset": [
-        994.8524959438789,
-        -183.27231684225598
+        940.5529262423561,
+        -134.4368547836535
       ]
     },
     "frontendVersion": "1.45.19"
