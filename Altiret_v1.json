@@ -558,7 +558,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        701836784806586,
+        1039401845077311,
         "randomize",
         25,
         5,
@@ -686,7 +686,7 @@
         512,
         true,
         1024,
-        767447828453592,
+        620403979742831,
         "randomize",
         25,
         5,
@@ -753,24 +753,24 @@
       ]
     },
     {
-      "id": 12,
+      "id": 7,
       "type": "CLIPTextEncode",
       "pos": [
-        -224.9309759311366,
-        556.5190203006528
+        -674.7879825280933,
+        391.73522173177014
       ],
       "size": [
         400,
         200
       ],
       "flags": {},
-      "order": 12,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
           "name": "clip",
           "type": "CLIP",
-          "link": 22
+          "link": 4
         }
       ],
       "outputs": [
@@ -778,16 +778,16 @@
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
-            20
+            9
           ]
         }
       ],
-      "title": "Face Negative",
+      "title": "Positive Prompt",
       "properties": {
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "score_4, score_5, score_6, human ears, extra ears, matching eyes, monochrome eyes, symmetrical eye colors, horizontal cheek slashes, cheek stripes, forehead paint, eyebrow slashes, blush, red cheeks, sunburned nose, rosy cheeks, flushed face, tiger stripes, stray face paint, random jaw tattoos, lower face markings, chin paint, orange eyes, yellow eyes, amber eyes, red eyes, g'raha tia, eyepatch, blindfold, closed eyes, source_furry, 3d, realistic, low quality, bad anatomy, bishounen, young boy, twink, baby face, cute face, pretty boy, blurred features, bruised eyes, black eyes, glove, clothing, (flat shading, cel-shading, flat colors, 2d vector art, untextured skin:1.3), full beard, thick beard, mustache, thick moustache, hairy cheeks,crystal, gem, chest stone\n"
+        "score_9, score_8_up, score_7_up, source_anime, solo, (1man:1.35), male miqo'te, final fantasy xiv, cat ears, fluffy cat tail, full body, standing, mature pose, confident stance, (mature athletic male body, broad shoulders, toned chest:1.3), naked, uncensored, male pubic hair, (visible penis, flaccid penis:1.15), smooth skin, bare chest, human feet, flat on the ground, visible feet, BREAK, (man_face, handsome older man, defined jawline:1.25), facial markings, teardrop face paint beneath eyes, distinct sharp freckles, BREAK, heterochromia, (left eye bright blue, ice blue eye:1.45), (vivid green right iris:1.1), BREAK, (orange hair:1.3), undercut, orange chin beard, orange goatee beard, soul patch, BREAK, ocean beach, sandy shore, waves, sea, sunny day\n\n"
       ]
     },
     {
@@ -825,28 +825,28 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "score_4, score_5, score_6, human ears, extra ears, matching eyes, monochrome eyes, symmetrical eye colors, source_furry, anthro, digitigrade legs, paws, animal feet, claws, talons, 3d, realistic, low quality, bad anatomy, deformed feet, backward feet, elongated limbs, extra arms, close-up, portrait, cropped head, eyepatch, blindfold, split color skin, split color hair, black hair, group, clone, full beard, thick beard, mustache, thick moustache, unkempt facial hair, hairy cheeks, underwear, clothes, six-pack abs, bodybuilder, huge muscles, overly muscular, bishounen, young boy, twink, baby face, cute face, bruised eyes, black eyes,crystal, gem, chest stone\n"
+        "score_4, score_5, score_6, human ears, extra ears, matching eyes, monochrome eyes, symmetrical eye colors, source_furry, anthro, digitigrade legs, paws, animal feet, claws, talons, 3d, realistic, low quality, bad anatomy, deformed feet, backward feet, elongated limbs, extra arms, close-up, portrait, cropped head, eyepatch, blindfold, split color skin, split color hair, black hair, group, clone, full beard, thick beard, mustache, thick moustache, unkempt facial hair, hairy cheeks, underwear, clothes, six-pack abs, bodybuilder, huge muscles, overly muscular, bishounen, young boy, twink, baby face, cute face, bruised eyes, black eyes,crystal, gem, chest stone,floating crystals, glowing shards, green body crystals, chest stones, crystallized skin\n"
       ]
     },
     {
-      "id": 7,
+      "id": 12,
       "type": "CLIPTextEncode",
       "pos": [
-        -674.7879825280933,
-        391.73522173177014
+        -224.9309759311366,
+        556.5190203006528
       ],
       "size": [
         400,
         200
       ],
       "flags": {},
-      "order": 9,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
           "name": "clip",
           "type": "CLIP",
-          "link": 4
+          "link": 22
         }
       ],
       "outputs": [
@@ -854,16 +854,16 @@
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
-            9
+            20
           ]
         }
       ],
-      "title": "Positive Prompt",
+      "title": "Face Negative",
       "properties": {
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "score_9, score_8_up, score_7_up, source_anime, solo, (1man:1.35), male miqo'te, final fantasy xiv, cat ears, fluffy cat tail, full body, standing, mature pose, confident stance, (mature athletic male body, broad shoulders, toned chest:1.3), naked, uncensored, male pubic hair, (visible penis, flaccid penis:1.15), smooth skin, bare chest, human feet, flat on the ground, visible feet, BREAK, (man_face, handsome older man, defined jawline:1.25), facial markings, teardrop face paint beneath eyes, distinct sharp freckles, BREAK, heterochromia, (left eye bright blue, ice blue eye:1.45), (right eye vivid green irises:1.4), BREAK, (orange hair:1.3), undercut, orange chin beard, orange goatee beard, soul patch, BREAK, ocean beach, sandy shore, waves, sea, sunny day\n\n"
+        "score_4, score_5, score_6, human ears, extra ears, matching eyes, monochrome eyes, symmetrical eye colors, horizontal cheek slashes, cheek stripes, forehead paint, eyebrow slashes, blush, red cheeks, sunburned nose, rosy cheeks, flushed face, tiger stripes, stray face paint, random jaw tattoos, lower face markings, chin paint, orange eyes, yellow eyes, amber eyes, red eyes, g'raha tia, eyepatch, blindfold, closed eyes, source_furry, 3d, realistic, low quality, bad anatomy, bishounen, young boy, twink, baby face, cute face, pretty boy, blurred features, bruised eyes, black eyes, glove, clothing, (flat shading, cel-shading, flat colors, 2d vector art, untextured skin:1.3), full beard, thick beard, mustache, thick moustache, hairy cheeks,crystal, gem, chest stone, green skin artifacts, floating facial gems\n"
       ]
     }
   ],
@@ -1081,10 +1081,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1.4641000000000008,
+      "scale": 0.6830134553650705,
       "offset": [
-        940.5529262423561,
-        -134.4368547836535
+        1111.2184628928578,
+        437.3097955851741
       ]
     },
     "frontendVersion": "1.45.19"
