@@ -273,64 +273,6 @@
       ]
     },
     {
-      "id": 4,
-      "type": "KSampler",
-      "pos": [
-        -274.86946722110815,
-        -134.69662797180246
-      ],
-      "size": [
-        270,
-        262
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 1
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 9
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 10
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 6
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            7
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSampler"
-      },
-      "widgets_values": [
-        1039401845077311,
-        "fixed",
-        25,
-        5,
-        "euler_ancestral",
-        "karras",
-        1
-      ]
-    },
-    {
       "id": 14,
       "type": "IPAdapterUnifiedLoader",
       "pos": [
@@ -530,7 +472,7 @@
         512,
         true,
         1024,
-        420646836663264,
+        387585652991106,
         "randomize",
         25,
         5,
@@ -617,7 +559,7 @@
       ],
       "size": [
         157.330078125,
-        66
+        86
       ],
       "flags": {},
       "order": 9,
@@ -655,121 +597,8 @@
       ],
       "properties": {
         "Node name for S&R": "BatchMasksNode"
-      }
-    },
-    {
-      "id": 7,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -674.7879825280933,
-        391.73522173177014
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 4
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            9
-          ]
-        }
-      ],
-      "title": "Positive Prompt",
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
       },
-      "widgets_values": [
-        "score_9, score_8_up, 1man, clear skin, cinematic lighting, beach, ocean waves, muscle anatomy, male miqo'te, cat ears, orange hair, right eye vivid green irises, left eye deep blue iris, distinct sharp freckles, genetic facial markings, smooth feline under-eye cluster markings, BREAK portrait, looking at viewer, cinematic composition\n"
-      ]
-    },
-    {
-      "id": 11,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -188.16430184022747,
-        277.9503016642891
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 21
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            19
-          ]
-        }
-      ],
-      "title": "Face Positive",
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "score_9, score_8_up, 1man, cat ears, man_face, defined jawline, (authentic dark biological face markings beneath eyes, smooth feline under-eye cluster markings:1.35), distinct sharp freckles, left eye blue, right eye green, orange hair, facial hair, slight smile\n"
-      ]
-    },
-    {
-      "id": 12,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -224.9309759311366,
-        556.5190203006528
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 22
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            20
-          ]
-        }
-      ],
-      "title": "Face Negative",
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "score_4, score_5, score_6, (horizontal cheek slashes, cheek stripes, straight face stripes, rigid parallel bars, geometric war paint, cosmetic eyeliner:1.45), flat modern cosmetics\n"
-      ]
+      "widgets_values": []
     },
     {
       "id": 13,
@@ -922,6 +751,178 @@
         0,
         1,
         "V only"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "KSampler",
+      "pos": [
+        -274.86946722110815,
+        -134.69662797180246
+      ],
+      "size": [
+        270,
+        262
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 9
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 10
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 6
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        474763325079461,
+        "randomize",
+        25,
+        5,
+        "euler_ancestral",
+        "karras",
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -674.7879825280933,
+        391.73522173177014
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            9
+          ]
+        }
+      ],
+      "title": "Positive Prompt",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "score_9, score_8_up, score_7_up, source_anime, solo, (1man:1.35), male miqo'te, final fantasy xiv, cat ears, fluffy cat tail, full body, standing, mature pose, confident stance, (mature athletic male body, broad shoulders, toned chest:1.3), naked, uncensored, male pubic hair, (visible penis, flaccid penis:1.15), smooth skin, bare chest, human feet, flat on the ground, visible feet, BREAK, (man_face, handsome older man, defined jawline:1.25), facial markings, teardrop face paint beneath eyes, distinct sharp freckles, BREAK, heterochromia, (left eye bright blue, ice blue eye:1.45), (vivid green right iris:1.1), BREAK, (orange hair:1.3), undercut, orange chin beard, orange goatee beard, soul patch, BREAK, ocean beach, sandy shore, waves, sea, sunny day\n"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -188.16430184022747,
+        277.9503016642891
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 21
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            19
+          ]
+        }
+      ],
+      "title": "Face Positive",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "score_9, score_8_up, score_7_up, 1man, cat ears, (man_face, handsome older man, defined jawline:1.35), facial markings, (three distinct curved paisley accents beneath eyes, teardrop face paint:1.35), distinct individual sharp freckles, BREAK, (left eye bright blue, ice blue eye:1.55), (right eye vivid green:1.45), BREAK, (orange hair:1.3), undercut, (orange chin beard, orange goatee beard, soul patch:1.3), slight smile, BREAK, (chiseled facial features, sharp facial shadows, detailed face contour, volumetric lighting, side lighting:1.25)\n"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -224.9309759311366,
+        556.5190203006528
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 22
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            20
+          ]
+        }
+      ],
+      "title": "Face Negative",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "score_4, score_5, score_6, human ears, extra ears, matching eyes, monochrome eyes, symmetrical eye colors, horizontal cheek slashes, cheek stripes, forehead paint, eyebrow slashes, blush, red cheeks, sunburned nose, rosy cheeks, flushed face, tiger stripes, stray face paint, random jaw tattoos, lower face markings, chin paint, orange eyes, yellow eyes, amber eyes, red eyes, g'raha tia, eyepatch, blindfold, closed eyes, source_furry, 3d, realistic, low quality, bad anatomy, bishounen, young boy, twink, baby face, cute face, pretty boy, blurred features, bruised eyes, black eyes, glove, clothing, (flat shading, cel-shading, flat colors, 2d vector art, untextured skin:1.3), full beard, thick beard, mustache, thick moustache, hairy cheeks,crystal, gem, chest stone, green skin artifacts, floating facial gems\n"
       ]
     }
   ],
@@ -1163,10 +1164,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1,
+      "scale": 1.1,
       "offset": [
-        739.8007478928571,
-        241.48922058517383
+        1105.3087699879486,
+        -200.6238268447353
       ]
     },
     "frontendVersion": "1.45.19"
